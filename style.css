@@ -1,0 +1,103 @@
+body {
+  background-color: #F5F5F5;
+  font-family: Calibri;
+  color: #383636;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #636161
+
+}
+h2 {
+  font-size: 25px;
+  color: #636161
+}
+img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.btn-github {
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2px 12px;
+    background-color: #24292e;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-linkedin {
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2px 12px;
+    background-color: #24292e;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-instagram {
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2px 12px;
+    background-color: #24292e;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10%;
+  padding: 8px 5px;
+  box-shadow: #636161;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
